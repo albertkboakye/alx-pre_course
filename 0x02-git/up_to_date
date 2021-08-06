@@ -1,0 +1,4 @@
+git checkout update_script    # move on your branch
+git fetch origin          # fetch all changes
+git pull origin main    # pull changes from the origin remote, main branch and merge them into update_script
+git push origin update_script # push my_branch
